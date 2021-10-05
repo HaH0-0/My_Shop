@@ -1,0 +1,85 @@
+.main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.box{
+    clear:both;
+}
+
+.box ul{
+    background-color: black;
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px; 
+    height: 100px;
+}
+.box ul p{
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    text-align: left;
+    display: inline;
+    margin-right: 200px;
+}
+
+.box ul li{
+    color:aliceblue;
+    font-size: large;
+    list-style: none;
+    display: inline-block;
+    width: 350px;
+    margin:auto;
+}
+
+
+.box ul a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.box ul a li:hover{
+    color: red;
+}
+
+.cards{
+    width: 300px;
+    border: solid 1px white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cards:hover{
+    border-color: black;
+}
+
+.name{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+    display: inline-block;
+}
+
+.description{
+    text-align: left;
+}
+
+
+.c1,.c2,.c3{
+    margin-left: 150px;
+    float: left;
+}
+
+.buy{
+    font-size: larger;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    margin-left: 100px;
+}
